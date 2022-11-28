@@ -1,0 +1,44 @@
+{
+  "name": "playwright_mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "aboutPage": "mocha --timeout 800000 --config= ./.mocharc.js ./test/aboutPage.spec.js",
+    "PreferencePage": "mocha --timeout 800000 --config= ./.mocharc.js ./test/preferencePage.spec.js",
+    "DataStoragePage": "mocha --timeout 800000 --config= ./.mocharc.js ./test/dataStorage.spec.js",
+    "smoke": "mocha --timeout 800000 --config= ./.mocharc.js ./test/aboutPage.spec.js ./test/preferencePage.spec.js",
+    "dummy": "mocha --timeout 800000  ./test/database.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supercharge/fs": "^3.4.0",
+    "allure-commandline": "^2.18.1",
+    "allure-mocha": "^2.0.0-beta.19",
+    "chai": "^4.3.6",
+    "chai-dom": "^1.11.0",
+    "chai-jquery": "^2.1.0",
+    "chai-visible": "^0.1.5",
+    "fs-extra": "^10.1.0",
+    "mocha": "^10.0.0",
+    "mocha-allure-reporter": "^1.4.0",
+    "mochawesome-report-generator": "^6.2.0",
+    "mochawesome-screenshots": "^1.7.3",
+    "mysql": "^2.18.1",
+    "node-localstorage": "^2.2.1",
+    "node-sessionstorage": "^1.0.0",
+    "playwright": "^1.27.0",
+    "prettier": "^2.7.1",
+    "read-excel-file": "^5.5.3",
+    "sessionstorage": "^0.1.0",
+    "winston": "^3.8.2",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.3"
+  }
+}

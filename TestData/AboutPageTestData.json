@@ -1,0 +1,20 @@
+{
+  "SoftwareRelease": "Software Release",
+  "CompanyInfo": "Company Information",
+  "Version": "Version",
+  "Vienna": "Vienna",
+  "Cairo": "Cairo",
+  "CompanyName": "Company Name",
+  "Email": "Email",
+  "PhoneNumber": "Phone Number",
+  "CompanyToolTip": "Provide the company name.",
+  "EmailToolTip": "Email id configured here will be notified about license validity, license expiry and system diagnostics information in case of errors.",
+  "PhoneNOToolTip": "Provide the phone number",
+  "ActualTextAlertMessage": "Please enter a valid Company name. It should be more than 3 and less than 100 characters",
+  "ActualEmailAlertMessage": "Please enter a valid email id",
+  "ActualPhoneAlertMessage": "Please enter a valid phone number",
+  "MandatoryAlertMessage": "Required field",
+  "EditCompanyName": "VuNet Systems",
+  "EditEmailID": "infonet@vunetsystems.com",
+  "EditPhoneNumber": "9600131167"
+}
